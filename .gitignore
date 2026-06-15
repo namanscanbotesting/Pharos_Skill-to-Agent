@@ -1,3 +1,72 @@
-Nothing should be ignored based on the provided file changes. The added files (ARCHITECTURE.md, README.md, TASKS.md) are all documentation/source files and do not fall under any common ignore patterns like compiled files, dependencies, or temporary files. Therefore, no modifications to .gitignore are needed.
+```
+# Dependencies
+node_modules/
 
-(empty output)
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Build outputs
+dist/
+build/
+target/
+
+# TypeScript/JavaScript
+*.tsbuildinfo
+*.js.map
+*.jsx.map
+*.ts.map
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (if any Python parts exist)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.so
+.Python
+*.egg-info/
+.eggs/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.gz
+*.rar
+*.7z
+```
